@@ -20,7 +20,7 @@ class Produto extends Crud{
     }
 
     public function formulario_adicionar(){
-        $this->criar_formulario("adicionar");
+        $this->criar_formulario("adicionar","Adicionar");
     }
 
     public function adicionar(){
@@ -39,7 +39,7 @@ class Produto extends Crud{
         $resultado = mysql_fetch_assoc($this->read("*",$id));
         foreach($this->campo_formularios as $key=>$campo)
             $this->campo_formularios[$key]['valor'] = $resultado[$campo['nome']] ;
-        $this->criar_formulario("editar");
+        $this->criar_formulario("editar","Editar");
     }
 
     public function editar(){

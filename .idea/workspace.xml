@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7957e5f-79ff-4511-b3c1-f88416b38844" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/cliente.php" afterPath="$PROJECT_DIR$/classes/cliente.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/crud.php" afterPath="$PROJECT_DIR$/classes/crud.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/pedido.php" afterPath="$PROJECT_DIR$/classes/pedido.php" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="produto.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="produto.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/produto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.615385">
-              <caret line="42" column="5" selection-start-line="35" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.6254237">
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -51,8 +50,8 @@
       <file leaf-file-name="adicionar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adicionar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="32" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -91,40 +90,40 @@
       <file leaf-file-name="crud.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/crud.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.192307">
-              <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+            <state vertical-scroll-proportion="-13.423077">
+              <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
               <folding>
-                <marker date="1455494031951" expanded="true" signature="902:1022" placeholder="..." />
-                <marker date="1455494031951" expanded="true" signature="1135:1529" placeholder="..." />
-                <marker date="1455494031951" expanded="true" signature="1600:1612" placeholder="INSERT INTO ${$C}... " />
-                <marker date="1455494031951" expanded="true" signature="1600:1627" placeholder="INSERT INTO " />
-                <marker date="1455494031951" expanded="true" signature="1600:1628" placeholder="INSERT INTO $... " />
-                <marker date="1455494031951" expanded="true" signature="1600:1653" placeholder="INSERT INTO " />
-                <marker date="1455494031951" expanded="true" signature="1765:1784" placeholder="SELECT (${$c... " />
-                <marker date="1455494031951" expanded="true" signature="1765:1785" placeholder="SELECT (${$c... $" />
-                <marker date="1455494031951" expanded="true" signature="1765:1786" placeholder="SELECT (${$c... $" />
-                <marker date="1455494031951" expanded="true" signature="1765:1798" placeholder="SELECT (${$c... ${$this-&gt;tabela}" />
-                <marker date="1455494031951" expanded="true" signature="1970:2010" placeholder="UPDATE ${$th... " />
-                <marker date="1455494031951" expanded="true" signature="1970:2017" placeholder="UPDATE ${$th... " />
-                <marker date="1455494031951" expanded="true" signature="1990:2010" placeholder="INSERT INTO " />
-                <marker date="1455494031951" expanded="true" signature="2122:2160" placeholder="DELETE FROM " />
-                <marker date="1455494031951" expanded="true" signature="2122:2198" placeholder="DELETE FROM " />
-                <marker date="1455494031951" expanded="true" signature="2128:2160" placeholder="INSERT INTO " />
-                <marker date="1455494031951" expanded="true" signature="2821:2853" placeholder="..." />
-                <marker date="1455494031951" expanded="true" signature="3095:3154" placeholder="..." />
-                <marker date="1455494031951" expanded="true" signature="3128:3154" placeholder="..." />
-                <marker date="1455494031951" expanded="true" signature="3636:3661" placeholder="..." />
-                <marker date="1455494031951" expanded="true" signature="3636:4010" placeholder="..." />
-                <marker date="1455494031951" expanded="true" signature="4113:4232" placeholder="..." />
+                <marker date="1455494110941" expanded="true" signature="902:1022" placeholder="..." />
+                <marker date="1455494110941" expanded="true" signature="1135:1529" placeholder="..." />
+                <marker date="1455494110941" expanded="true" signature="1600:1612" placeholder="INSERT INTO ${$C}... " />
+                <marker date="1455494110941" expanded="true" signature="1600:1627" placeholder="INSERT INTO " />
+                <marker date="1455494110941" expanded="true" signature="1600:1628" placeholder="INSERT INTO $... " />
+                <marker date="1455494110941" expanded="true" signature="1600:1653" placeholder="INSERT INTO " />
+                <marker date="1455494110941" expanded="true" signature="1765:1784" placeholder="SELECT (${$c... " />
+                <marker date="1455494110941" expanded="true" signature="1765:1785" placeholder="SELECT (${$c... $" />
+                <marker date="1455494110941" expanded="true" signature="1765:1786" placeholder="SELECT (${$c... $" />
+                <marker date="1455494110941" expanded="true" signature="1765:1798" placeholder="SELECT (${$c... ${$this-&gt;tabela}" />
+                <marker date="1455494110941" expanded="true" signature="1970:2010" placeholder="UPDATE ${$th... " />
+                <marker date="1455494110941" expanded="true" signature="1970:2017" placeholder="UPDATE ${$th... " />
+                <marker date="1455494110941" expanded="true" signature="1990:2010" placeholder="INSERT INTO " />
+                <marker date="1455494110941" expanded="true" signature="2122:2160" placeholder="DELETE FROM " />
+                <marker date="1455494110941" expanded="true" signature="2122:2198" placeholder="DELETE FROM " />
+                <marker date="1455494110941" expanded="true" signature="2128:2160" placeholder="INSERT INTO " />
+                <marker date="1455494110941" expanded="true" signature="2829:2861" placeholder="..." />
+                <marker date="1455494110941" expanded="true" signature="3103:3162" placeholder="..." />
+                <marker date="1455494110941" expanded="true" signature="3136:3162" placeholder="..." />
+                <marker date="1455494110941" expanded="true" signature="3644:3669" placeholder="..." />
+                <marker date="1455494110941" expanded="true" signature="3644:4018" placeholder="..." />
+                <marker date="1455494110941" expanded="true" signature="4121:4240" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17288135">
+            <state vertical-scroll-proportion="-3.9230769">
               <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
@@ -134,8 +133,8 @@
       <file leaf-file-name="pedido.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/pedido.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.5">
-              <caret line="58" column="132" selection-start-line="58" selection-start-column="132" selection-end-line="58" selection-end-column="132" />
+            <state vertical-scroll-proportion="-3.0769231">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -144,8 +143,8 @@
       <file leaf-file-name="cliente.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/cliente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.538462">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="5" />
+            <state vertical-scroll-proportion="-4.269231">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="18" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -168,11 +167,11 @@
         <option value="$PROJECT_DIR$/includes/require.php" />
         <option value="$PROJECT_DIR$/adicionar.php" />
         <option value="$PROJECT_DIR$/deletar.php" />
-        <option value="$PROJECT_DIR$/classes/produto.php" />
+        <option value="$PROJECT_DIR$/editar.php" />
+        <option value="$PROJECT_DIR$/classes/crud.php" />
         <option value="$PROJECT_DIR$/classes/cliente.php" />
         <option value="$PROJECT_DIR$/classes/pedido.php" />
-        <option value="$PROJECT_DIR$/classes/crud.php" />
-        <option value="$PROJECT_DIR$/editar.php" />
+        <option value="$PROJECT_DIR$/classes/produto.php" />
       </list>
     </option>
   </component>
@@ -353,28 +352,28 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1455494031951" expanded="true" signature="902:1022" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="1135:1529" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="1600:1612" placeholder="INSERT INTO ${$C}... " />
-            <marker date="1455494031951" expanded="true" signature="1600:1627" placeholder="INSERT INTO " />
-            <marker date="1455494031951" expanded="true" signature="1600:1628" placeholder="INSERT INTO $... " />
-            <marker date="1455494031951" expanded="true" signature="1600:1653" placeholder="INSERT INTO " />
-            <marker date="1455494031951" expanded="true" signature="1765:1784" placeholder="SELECT (${$c... " />
-            <marker date="1455494031951" expanded="true" signature="1765:1785" placeholder="SELECT (${$c... $" />
-            <marker date="1455494031951" expanded="true" signature="1765:1786" placeholder="SELECT (${$c... $" />
-            <marker date="1455494031951" expanded="true" signature="1765:1798" placeholder="SELECT (${$c... ${$this-&gt;tabela}" />
-            <marker date="1455494031951" expanded="true" signature="1970:2010" placeholder="UPDATE ${$th... " />
-            <marker date="1455494031951" expanded="true" signature="1970:2017" placeholder="UPDATE ${$th... " />
-            <marker date="1455494031951" expanded="true" signature="1990:2010" placeholder="INSERT INTO " />
-            <marker date="1455494031951" expanded="true" signature="2122:2160" placeholder="DELETE FROM " />
-            <marker date="1455494031951" expanded="true" signature="2122:2198" placeholder="DELETE FROM " />
-            <marker date="1455494031951" expanded="true" signature="2128:2160" placeholder="INSERT INTO " />
-            <marker date="1455494031951" expanded="true" signature="2821:2853" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="3095:3154" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="3128:3154" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="3636:3661" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="3636:4010" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="4113:4232" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="902:1022" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="1135:1529" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="1600:1612" placeholder="INSERT INTO ${$C}... " />
+            <marker date="1455494110941" expanded="true" signature="1600:1627" placeholder="INSERT INTO " />
+            <marker date="1455494110941" expanded="true" signature="1600:1628" placeholder="INSERT INTO $... " />
+            <marker date="1455494110941" expanded="true" signature="1600:1653" placeholder="INSERT INTO " />
+            <marker date="1455494110941" expanded="true" signature="1765:1784" placeholder="SELECT (${$c... " />
+            <marker date="1455494110941" expanded="true" signature="1765:1785" placeholder="SELECT (${$c... $" />
+            <marker date="1455494110941" expanded="true" signature="1765:1786" placeholder="SELECT (${$c... $" />
+            <marker date="1455494110941" expanded="true" signature="1765:1798" placeholder="SELECT (${$c... ${$this-&gt;tabela}" />
+            <marker date="1455494110941" expanded="true" signature="1970:2010" placeholder="UPDATE ${$th... " />
+            <marker date="1455494110941" expanded="true" signature="1970:2017" placeholder="UPDATE ${$th... " />
+            <marker date="1455494110941" expanded="true" signature="1990:2010" placeholder="INSERT INTO " />
+            <marker date="1455494110941" expanded="true" signature="2122:2160" placeholder="DELETE FROM " />
+            <marker date="1455494110941" expanded="true" signature="2122:2198" placeholder="DELETE FROM " />
+            <marker date="1455494110941" expanded="true" signature="2128:2160" placeholder="INSERT INTO " />
+            <marker date="1455494110941" expanded="true" signature="2829:2861" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="3103:3162" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="3136:3162" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="3644:3669" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="3644:4018" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="4121:4240" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -467,73 +466,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adicionar.php">
+    <entry file="file://$PROJECT_DIR$/editar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="32" />
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/cliente.php">
+    <entry file="file://$PROJECT_DIR$/adicionar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.538462">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/pedido.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.5">
-          <caret line="58" column="132" selection-start-line="58" selection-start-column="132" selection-end-line="58" selection-end-column="132" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/produto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.615385">
-          <caret line="42" column="5" selection-start-line="35" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/crud.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.192307">
-          <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+        <state vertical-scroll-proportion="-13.423077">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
           <folding>
-            <marker date="1455494031951" expanded="true" signature="902:1022" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="1135:1529" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="1600:1612" placeholder="INSERT INTO ${$C}... " />
-            <marker date="1455494031951" expanded="true" signature="1600:1627" placeholder="INSERT INTO " />
-            <marker date="1455494031951" expanded="true" signature="1600:1628" placeholder="INSERT INTO $... " />
-            <marker date="1455494031951" expanded="true" signature="1600:1653" placeholder="INSERT INTO " />
-            <marker date="1455494031951" expanded="true" signature="1765:1784" placeholder="SELECT (${$c... " />
-            <marker date="1455494031951" expanded="true" signature="1765:1785" placeholder="SELECT (${$c... $" />
-            <marker date="1455494031951" expanded="true" signature="1765:1786" placeholder="SELECT (${$c... $" />
-            <marker date="1455494031951" expanded="true" signature="1765:1798" placeholder="SELECT (${$c... ${$this-&gt;tabela}" />
-            <marker date="1455494031951" expanded="true" signature="1970:2010" placeholder="UPDATE ${$th... " />
-            <marker date="1455494031951" expanded="true" signature="1970:2017" placeholder="UPDATE ${$th... " />
-            <marker date="1455494031951" expanded="true" signature="1990:2010" placeholder="INSERT INTO " />
-            <marker date="1455494031951" expanded="true" signature="2122:2160" placeholder="DELETE FROM " />
-            <marker date="1455494031951" expanded="true" signature="2122:2198" placeholder="DELETE FROM " />
-            <marker date="1455494031951" expanded="true" signature="2128:2160" placeholder="INSERT INTO " />
-            <marker date="1455494031951" expanded="true" signature="2821:2853" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="3095:3154" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="3128:3154" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="3636:3661" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="3636:4010" placeholder="..." />
-            <marker date="1455494031951" expanded="true" signature="4113:4232" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="902:1022" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="1135:1529" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="1600:1612" placeholder="INSERT INTO ${$C}... " />
+            <marker date="1455494110941" expanded="true" signature="1600:1627" placeholder="INSERT INTO " />
+            <marker date="1455494110941" expanded="true" signature="1600:1628" placeholder="INSERT INTO $... " />
+            <marker date="1455494110941" expanded="true" signature="1600:1653" placeholder="INSERT INTO " />
+            <marker date="1455494110941" expanded="true" signature="1765:1784" placeholder="SELECT (${$c... " />
+            <marker date="1455494110941" expanded="true" signature="1765:1785" placeholder="SELECT (${$c... $" />
+            <marker date="1455494110941" expanded="true" signature="1765:1786" placeholder="SELECT (${$c... $" />
+            <marker date="1455494110941" expanded="true" signature="1765:1798" placeholder="SELECT (${$c... ${$this-&gt;tabela}" />
+            <marker date="1455494110941" expanded="true" signature="1970:2010" placeholder="UPDATE ${$th... " />
+            <marker date="1455494110941" expanded="true" signature="1970:2017" placeholder="UPDATE ${$th... " />
+            <marker date="1455494110941" expanded="true" signature="1990:2010" placeholder="INSERT INTO " />
+            <marker date="1455494110941" expanded="true" signature="2122:2160" placeholder="DELETE FROM " />
+            <marker date="1455494110941" expanded="true" signature="2122:2198" placeholder="DELETE FROM " />
+            <marker date="1455494110941" expanded="true" signature="2128:2160" placeholder="INSERT INTO " />
+            <marker date="1455494110941" expanded="true" signature="2829:2861" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="3103:3162" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="3136:3162" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="3644:3669" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="3644:4018" placeholder="..." />
+            <marker date="1455494110941" expanded="true" signature="4121:4240" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editar.php">
+    <entry file="file://$PROJECT_DIR$/classes/cliente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17288135">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state vertical-scroll-proportion="-4.269231">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="18" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/pedido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0769231">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/produto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6254237">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
           <folding />
         </state>
       </provider>

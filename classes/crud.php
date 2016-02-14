@@ -66,11 +66,11 @@ class Crud{
         return $query;
     }
 
-    public function criar_formulario($link){
+    public function criar_formulario($link,$botao){
         echo "<div class=\"row\"><div class=\"col-md-6 col-md-offset-3\"><form method='post' action=\"$link.php?class=$this->classe&$link=1\" >";
         foreach($this->campo_formularios as $campo_form)
             $this->cria_input($campo_form);
-        echo "<p class=\"text-center\"><input type=\"submit\" class=\"btn btn-primary\" value=\"$link\"></p></form></div></div>";
+        echo "<p class=\"text-center\"><input type=\"submit\" class=\"btn btn-primary\" value=\"$botao\"></p></form></div></div>";
     }
 
     public function cria_input($campo_form){

@@ -19,7 +19,7 @@ class Pedido extends Crud{
     public function formulario_adicionar(){
         $this->seleciona_options_select(true);
         $this->seleciona_options_select(false);
-        $this->criar_formulario("adicionar");
+        $this->criar_formulario("adicionar","Adicionar");
     }
 
     public function seleciona_options_select($seleciona_cliente){
@@ -52,7 +52,7 @@ class Pedido extends Crud{
         $this->campo_formularios[3]['valor'] = $_GET['id_cliente'];
         $this->seleciona_options_select(true);
         $this->seleciona_options_select(false);
-        $this->criar_formulario("editar");
+        $this->criar_formulario("editar","Editar");
     }
 
     public function editar(){
