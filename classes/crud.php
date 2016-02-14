@@ -8,6 +8,7 @@ class Crud{
     protected $campos_mostra_tabela;
     protected $campos_mostra_tabela_cabecalho;
     protected $campo_monta_link;
+    protected $campo_formularios;
 
     private function cabecalho_lista(){
         echo "<tr>";
@@ -46,7 +47,7 @@ class Crud{
     public function read($campos,$where = null){
         $sql = "SELECT $campos FROM $this->tabela ";
         if($where!=null)
-            $sql .= "WHERE $where";
+            $sql .= " $where";
         return $this->executa($sql);
     }
 
@@ -63,6 +64,47 @@ class Crud{
     public function executa($sql){
         $query = mysql_query($sql);
         return $query;
+    }
+
+    public function criar_formulario(){
+        echo "<div class=\"row\"><div class=\"col-md-6 col-md-offset-3\"><form method='post' action=\"adicionar.php?class=$this->classe&adicionar=1\" >";
+        foreach($this->campo_formularios as $campo_form)
+            $this->cria_input($campo_form);
+        echo "<p class=\"text-center\"><input type=\"submit\" class=\"btn btn-primary\" href=\"adicionar.php?class=$this->classe\" value=\"Adicionar\"></p></form></div></div>";
+    }
+
+    public function cria_input($campo_form){
+        echo "<div class=\"form-group\">";
+        if(isset($campo_form['label']))
+            echo "<label>".$campo_form['label']."</label>";
+        if($campo_form['type']== "text" || $campo_form['type']== "hidden"){
+            if($campo_form['nome']=="preco")
+                echo " <div class=\"input-group\"><div class=\"input-group-addon\">$</div>";
+            echo "<input class=\"form-control\"  type=\"".$campo_form['type']."\" name=\"".$campo_form['nome']."\"";
+            if(isset($campo_form['valor']))
+                echo "value=\"".$campo_form['valor']."\"";
+            echo "/>";
+            if($campo_form['nome']=="preco")
+                echo "</div>";
+        }else if($campo_form['type']== "select") {
+            $options = $campo_form['option'];
+            echo "<select class=\"form-control\" name=\"".$campo_form['nome']."\">";
+            foreach($options as $option) {
+                echo "<option ";
+                if (isset($campo_form['valor'])) {
+                    if($option['id'] == $campo_form['valor'])
+                        echo "selected";
+                }
+                echo "value=\"".$option['id']."\">".$option['nome']."</option>";
+            }
+            echo "</select>";
+        }else{
+            echo "<textarea class=\"form-control\"  name=\"".$campo_form['nome']."\">";
+            if(isset($campo_form['valor']))
+                echo $campo_form['valor'];
+            echo "</textarea>";
+        }
+        echo "</div>";
     }
 }
 ?>
