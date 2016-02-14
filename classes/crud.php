@@ -25,7 +25,7 @@ class Crud{
         foreach($this->campos_mostra_tabela as $campo)
             echo "<td>$dados[$campo]</td>";
         echo "<td><a class=\"btn btn-default\" href=\"editar.php?class=$this->classe$link\" role=\"button\">Editar</a></td>
-              <td><a class=\"btn btn-danger\" href=\"excluir.php?class=$this->classe$link\" role=\"button\">Excluir</a></td>
+              <td><a class=\"btn btn-danger\" href=\"deletar.php?class=$this->classe$link\" role=\"button\">Excluir</a></td>
         </tr>";
     }
 

@@ -28,4 +28,9 @@ class Produto extends Crud{
         $valores = "'".mysql_real_escape_string($_POST['nome'])."','".mysql_real_escape_string($_POST['descricao'])."','".mysql_real_escape_string($_POST['preco'])."'";
         $a = $this->create($campos,$valores);
     }
+
+    public function deletar(){
+        $id = "id='".mysql_real_escape_string($_GET['id'])."'";
+        $this->delete($id);
+    }
 }

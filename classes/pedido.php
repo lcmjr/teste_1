@@ -39,4 +39,9 @@ class Pedido extends Crud{
         $valores = "'".mysql_real_escape_string($_POST['produto_sel'])."','".mysql_real_escape_string($_POST['cliente_sel'])."'";
         $this->create($campos,$valores);
     }
+
+    public function deletar(){
+        $id = "id_produto='".mysql_real_escape_string($_GET['id_produto'])."' AND id_cliente='".mysql_real_escape_string($_GET['id_cliente'])."'";
+        $this->delete($id);
+    }
 }

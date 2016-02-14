@@ -24,4 +24,9 @@ class Cliente extends Crud{
         $valores = "'".mysql_real_escape_string($_POST['nome'])."','".mysql_real_escape_string($_POST['email'])."','".mysql_real_escape_string($_POST['telefone'])."'";
         $this->create($campos,$valores);
     }
+
+    public function deletar(){
+        $id = "id='".mysql_real_escape_string($_GET['id'])."'";
+        $this->delete($id);
+    }
 }
