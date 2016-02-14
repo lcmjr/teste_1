@@ -19,7 +19,7 @@ class Pedido extends Crud{
     public function formulario_adicionar(){
         $this->seleciona_options_select(true);
         $this->seleciona_options_select(false);
-        $this->criar_formulario();
+        $this->criar_formulario("adicionar");
     }
 
     public function seleciona_options_select($seleciona_cliente){
@@ -43,5 +43,21 @@ class Pedido extends Crud{
     public function deletar(){
         $id = "id_produto='".mysql_real_escape_string($_GET['id_produto'])."' AND id_cliente='".mysql_real_escape_string($_GET['id_cliente'])."'";
         $this->delete($id);
+    }
+
+    public function formulario_editar(){
+        $this->campo_formularios[0]['valor'] = $_GET['id_produto'];
+        $this->campo_formularios[1]['valor'] = $_GET['id_produto'];
+        $this->campo_formularios[2]['valor'] = $_GET['id_cliente'];
+        $this->campo_formularios[3]['valor'] = $_GET['id_cliente'];
+        $this->seleciona_options_select(true);
+        $this->seleciona_options_select(false);
+        $this->criar_formulario("editar");
+    }
+
+    public function editar(){
+        $campos = "id_produto = '".mysql_real_escape_string($_POST['produto_sel'])."',id_cliente='".mysql_real_escape_string($_POST['cliente_sel'])."'";
+        $where = "id_produto='".mysql_real_escape_string($_POST['id_produto'])."' AND id_cliente='".mysql_real_escape_string($_POST['id_cliente'])."'";
+        $this->update($campos,$where);
     }
 }

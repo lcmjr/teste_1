@@ -16,7 +16,7 @@ class Cliente extends Crud{
     }
 
     public function formulario_adicionar(){
-        $this->criar_formulario();
+        $this->criar_formulario("adicionar");
     }
 
     public function adicionar(){
@@ -28,5 +28,26 @@ class Cliente extends Crud{
     public function deletar(){
         $id = "id='".mysql_real_escape_string($_GET['id'])."'";
         $this->delete($id);
+    }
+
+    public function formulario_editar(){
+        $id = " WHERE id=".mysql_real_escape_string($_GET['id']);
+        $resultado = mysql_fetch_assoc($this->read("*",$id));
+        foreach($this->campo_formularios as $key=>$campo)
+            $this->campo_formularios[$key]['valor'] = $resultado[$campo['nome']] ;
+        $this->criar_formulario("editar");
+    }
+
+    public function editar(){
+        $campos = "";
+        foreach($this->campo_formularios as $key=>$campo) {
+            if($campo['nome']!='id') {
+                if($campos != "")
+                    $campos .= ",";
+                $campos .= " ".$campo['nome'] . "='" . mysql_real_escape_string($_POST[$campo['nome']]) . "'";
+            }
+        }
+        $where = "id = '".mysql_real_escape_string($_POST['id'])."'";
+        $this->update($campos,$where);
     }
 }

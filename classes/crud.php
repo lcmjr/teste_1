@@ -66,11 +66,11 @@ class Crud{
         return $query;
     }
 
-    public function criar_formulario(){
-        echo "<div class=\"row\"><div class=\"col-md-6 col-md-offset-3\"><form method='post' action=\"adicionar.php?class=$this->classe&adicionar=1\" >";
+    public function criar_formulario($link){
+        echo "<div class=\"row\"><div class=\"col-md-6 col-md-offset-3\"><form method='post' action=\"$link.php?class=$this->classe&$link=1\" >";
         foreach($this->campo_formularios as $campo_form)
             $this->cria_input($campo_form);
-        echo "<p class=\"text-center\"><input type=\"submit\" class=\"btn btn-primary\" href=\"adicionar.php?class=$this->classe\" value=\"Adicionar\"></p></form></div></div>";
+        echo "<p class=\"text-center\"><input type=\"submit\" class=\"btn btn-primary\" value=\"$link\"></p></form></div></div>";
     }
 
     public function cria_input($campo_form){
@@ -93,7 +93,7 @@ class Crud{
                 echo "<option ";
                 if (isset($campo_form['valor'])) {
                     if($option['id'] == $campo_form['valor'])
-                        echo "selected";
+                        echo "selected ";
                 }
                 echo "value=\"".$option['id']."\">".$option['nome']."</option>";
             }
